@@ -1,0 +1,78 @@
+i{
+  position: fixed;
+  font-size: 400%;
+  left: 30px;
+}
+
+h4{
+  line-height: 1.5;
+  padding: 10px;
+  margin: 0 30px 0 30px;
+}
+
+.main{
+  margin: 100px 100px 200px 100px;
+  text-align: center;
+  padding: 20px;
+  background-color: #e8f9e9 ;
+  border: 1px solid;
+  box-shadow: 0 0 8px 3px #fff;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.title{
+  line-height: 2;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.qSection{
+  position: relative;
+  padding: 20px;
+  font-size:17px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.option{
+  width: 460px;
+  display: inline-block;
+  padding: 10px 0 10px 15px;
+  margin: 10px auto;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.option:hover{
+  background: #08038C;
+  color: #f6f6f6;
+}
+
+.answers{
+  padding-left: 10px;
+}
+
+.next-btn{
+  box-shadow: 0 0 7px 4px green;
+  background-color: purple;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px
+}
+
+.next-btn:hover{
+  background: #08038C;
+  color: #f6f6f6;
+}
+
+.result{
+  text-align: center;
+  font-size: 65px;
+}
+
+.option input:checked .option{
+  background: #08038C;
+  color: #000;
+}
